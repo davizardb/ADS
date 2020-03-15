@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,"Helvetica Neue",Arial,
+    sans-serif,"Apple Color Emoji","Segoe UI Emoji",
+    "Segoe UI Symbol","Noto Color Emoji";
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color:rgb(75, 175, 214);
+    padding: 5px;
+    height: 100px;
+}
+.tabela {
+    height: 200px;
+    overflow: scroll;
+}
+
+p{
+    padding: 15px;
+}
+
+.tabela th {
+    top: 0;
+    z-index: 2;
+    background: #fff;
+    box-shadow: 0 1px 0 0 #ddd, 0 -5px 0 0 #fff;
+} 
+
+.container {
+    max-width: auto;
+}
+
+ul li {
+    display: -ms-flexbox;
+    display: block;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+}
+.topnav{
+    display: -ms-flexbox;
+    display: block;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+}
+.row {
+    width: 100%;
+}
+button{
+  width: 200px;
+  height: 30px;
+}
+.container {
+    width: 100%;
+}
+tr {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container img{
+    max-width: 60px;
+    margin: 25px;
+}
+body > table{
+    width: 100%;
+}
+
+table{
+    width:100%;
+    clear: both;
+    background-color: rgb(137, 191, 216);
+}
+table.list{
+    width:100%;
+}
+#id{
+    width: 10px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    width: 100%;
+    padding: 0px 0px 0px 200px;
+}
+th{
+    width: 100%;
+    height: 30px;
+    padding: 15px 0px 0px 0px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+}
+

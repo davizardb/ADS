@@ -1,0 +1,3 @@
+Para executar abra a página index.html em qualquer navegador.
+
+Para gerar novos numeros atualize a página ou pressione f5 depois o botão iniciar.
